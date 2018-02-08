@@ -1,0 +1,14 @@
+calibrate lowest based on google.com, etc
+
+links[i].style.setProperty("color", "rgb(255, 250, 0)", "important"); \
+
+-------------
+
+var start = Date.now();
+
+function finished()
+{
+    console.log("done in " + (Date.now() - start) + "ms");
+}
+
+$('body').append("<iframe src='url' onload='finished()'></iframe>");
